@@ -15,6 +15,11 @@ npm init -y
 ```bash
 pnpm add cookie-parser cors dotenv express http-status tsx typescript zod
 ```
+### Create tsconfig.json
+
+```bash
+npx tsc --init
+```
 
 ### Dev Dependencies
 
