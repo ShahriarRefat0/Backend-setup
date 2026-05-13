@@ -11,3 +11,5 @@ const userSchema = z.object({
 export const UserValidation = {
   userSchema,
 };
+
+export { userSchema };
