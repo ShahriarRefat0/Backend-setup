@@ -226,7 +226,10 @@ Sharding splits database across multiple servers.
 | Improves management | Improves scalability |
 
 
+```  
+### Multi vendor add product ERD:- https://drive.google.com/file/d/18lLk64rT3wpDLkJ8z1Y--ikIo_bCC951/view?usp=sharing 
 
+```  
 
 
 
