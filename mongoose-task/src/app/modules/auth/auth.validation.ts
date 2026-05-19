@@ -29,5 +29,5 @@ export const loginValidationSchema = z.object({
 
 
 
-export type UserLogin = z.infer<typeof loginValidationSchema>;
-export type UserRegister = z.infer<typeof userValidationSchema>;
+export type LoginUser = z.infer<typeof loginValidationSchema>;
+export type RegisterUser = z.infer<typeof userValidationSchema>;
