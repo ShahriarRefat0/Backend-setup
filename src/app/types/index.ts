@@ -13,3 +13,11 @@ interface ErrorResponse {
 } 
 
 export type {ErrorResponse}
+
+interface AuthUser {
+    id: string;
+    role: "MERCHANT" | "ADMIN" | "CUSTOMER";
+    email: string;
+}
+
+export type {AuthUser}

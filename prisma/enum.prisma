@@ -1,0 +1,11 @@
+enum Role {
+  MERCHANT
+  ADMIN
+  CUSTOMER
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  REJECTED
+}
