@@ -12,6 +12,13 @@ export const userValidationSchema = z.object({
     .string()
     .min(6, "Password must be at least 6 characters")
     .max(20, "Password is too long"),
+    
+  role: z.enum([
+    "ADMIN",
+    "MERCHANT",
+    "CUSTOMER"
+  ])
+  
 });
 
 

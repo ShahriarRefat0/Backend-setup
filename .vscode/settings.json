@@ -1,15 +1,25 @@
 {
-    "sqltools.connections": [
-        {
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "company_db",
-            "database": "company_db",
-            "username": "postgres",
-            "password": "123456"
-        }
-    ]
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "company_db",
+      "database": "company_db",
+      "username": "postgres",
+      "password": "123456"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
